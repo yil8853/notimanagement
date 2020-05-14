@@ -4,7 +4,7 @@ public class Alarmed extends AbstractEvent {
 
     private Long id;
     private String userid;
-    private String timestamp;
+    private Integer point;
 
     public Alarmed(){
         super();
@@ -24,11 +24,11 @@ public class Alarmed extends AbstractEvent {
     public void setUserid(String userid) {
         this.userid = userid;
     }
-    public String getTimestamp() {
-        return timestamp;
+    public Integer getPoint() {
+        return point;
     }
 
-    public void setTimestamp(String timestamp) {
-        this.timestamp = timestamp;
+    public void setPoint(Integer point) {
+        this.point = point;
     }
 }

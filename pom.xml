@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>bookrentalcheon</groupId>
-	<artifactId>notimanagement</artifactId>
+	<artifactId>pointmanagement</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>notimanagement</name>
+	<name>pointmanagement</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>

@@ -8,19 +8,15 @@ import org.springframework.cloud.stream.annotation.StreamListener;
 import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.stereotype.Service;
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
 @Service
 public class PolicyHandler{
-
-    @Autowired
-    ReservationMirrorRepository reservationMirrorRepository;
-
+    
     @StreamListener(KafkaProcessor.INPUT)
-    public void wheneverRevUpdate(@Payload Reserved reserved){
-        if (reserved.isMe()) {
+    public void wheneverReserved_Revupdate(@Payload Reserved reserved){
 
+        if(reserved.isMe()){
+            System.out.println("##### listener Revupdate : " + reserved.toJson());
         }
     }
+
 }

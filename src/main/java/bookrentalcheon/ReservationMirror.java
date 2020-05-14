@@ -1,7 +1,6 @@
 package bookrentalcheon;
 
 import javax.persistence.*;
-import java.util.Date;
 import java.util.List;
 
 @Entity
@@ -12,8 +11,6 @@ public class ReservationMirror {
         @GeneratedValue(strategy=GenerationType.AUTO)
         private Long id;
         private String userid;
-        private String status;
-        private Date timestamp;
 
 
         public Long getId() {
@@ -30,19 +27,7 @@ public class ReservationMirror {
         public void setUserid(String userid) {
             this.userid = userid;
         }
-        public String getStatus() {
-            return status;
-        }
 
-        public void setStatus(String status) {
-            this.status = status;
-        }
-        public Date getTimestamp() {
-            return timestamp;
-        }
 
-        public void setTimestamp(Date timestamp) {
-            this.timestamp = timestamp;
-        }
 
 }

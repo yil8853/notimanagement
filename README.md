@@ -46,12 +46,7 @@
 # 분석/설계
 
 ## TO-BE 조직 (Vertically-Aligned)
-![image](https://user-images.githubusercontent.com/63623995/81637644-cf55f400-9451-11ea-9cf3-1b599eb21e5d.png)
-
-
-## Event Storming 결과
-* MSAEz 로 모델링한 이벤트스토밍 결과: http://msaez.io/#/storming/u41qKiD4gfaXC23EQCoZq4IvtuI2/mine/24b47ed1d8087379fff017f5f6671876/-M71gjp1bQwtcugFX4tl
-
+![조직도](https://user-images.githubusercontent.com/63623995/81893217-137afd00-95e8-11ea-97f0-f81f4d4bd1c3.png)
 
 ### 이벤트 도출
 원할한 토론, 이해를 위해 event-storming 초반은 한글로 작성 및 진행
@@ -77,8 +72,7 @@
 모든 언어를 영어로 변환하여, 유비쿼터스 랭귀지로 소스코드 작성 기반 마련
 
 ### 완성된 모형
-
-![image](https://user-images.githubusercontent.com/63623995/81639169-2b227c00-9456-11ea-8e93-3a30d4344660.png)
+![msaez](https://user-images.githubusercontent.com/63623995/81893225-1970de00-95e8-11ea-9f04-be75e924e115.png)
 
 - customermanagement에서 이벤트 만 받아서 카톡 알람 처리하는 것으로 완결
 - 각 Aggregte Attribute
@@ -105,7 +99,7 @@
 
 ## 헥사고날 아키텍처 다이어그램 도출
     
-![image](https://user-images.githubusercontent.com/63623995/81639426-e0553400-9456-11ea-8346-be1d2d681305.png)
+![헥사고날](https://user-images.githubusercontent.com/63623995/81893221-170e8400-95e8-11ea-8214-838d5bdaa96f.png)
 
     - Chris Richardson, MSA Patterns 참고하여 Inbound adaptor와 Outbound adaptor를 구분함
     - 호출관계에서 PubSub 표현

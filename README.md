@@ -72,7 +72,7 @@
 모든 언어를 영어로 변환하여, 유비쿼터스 랭귀지로 소스코드 작성 기반 마련
 
 ### 완성된 모형
-![msaez](https://user-images.githubusercontent.com/63623995/81893225-1970de00-95e8-11ea-9f04-be75e924e115.png)
+![msa2](https://user-images.githubusercontent.com/50975949/81896219-14635d00-95ef-11ea-8d57-02f097bed485.png)
 
 - customermanagement에서 이벤트 만 받아서 카톡 알람 처리하는 것으로 완결
 - 각 Aggregte Attribute

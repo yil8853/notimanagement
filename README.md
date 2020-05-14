@@ -4,7 +4,7 @@
 
 - 체크포인트 : https://workflowy.com/s/assessment-check-po/T5YrzcMewfo4J6LW
 
-
+40.82.152.157 bookstore.skcc.co.kr
 # Table of contents
 
 - [예제 - 도서대여(마이크로 서비스 추가 구현 - 포인트 적립)](#---)
